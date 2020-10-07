@@ -32,6 +32,7 @@ values."
    dotspacemacs-configuration-layers
    '(
      (go :variables go-backend 'lsp)
+     dap
      python
      ipython-notebook
      plantuml
@@ -301,6 +302,8 @@ values."
    ;; delete only whitespace for changed lines or `nil' to disable cleanup.
    ;; (default nil)
    dotspacemacs-whitespace-cleanup nil
+   ;; added when updating to develop branch 
+   dotspacemacs-mode-line-theme 'spacemacs
    ))
 
 (defun dotspacemacs/user-init ()
