@@ -321,7 +321,7 @@ you should place your code here."
 
   ;; plantuml config
   (add-to-list 'auto-mode-alist '("\\.puml\\'" . plantuml-mode))
-  (defvar org-plantuml-jar-path
+  (setq org-plantuml-jar-path
     (let ((spacemacsdir (getenv "SPACEMACSDIR")))
       (if (null spacemacsdir)
           "~/.spacemacs.d/libs/plantuml/plantuml.jar")))
