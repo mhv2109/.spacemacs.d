@@ -46,3 +46,9 @@ I've included `plantuml.jar` in this `.spacemacs.d/` distribution.  It requires 
 ## Useful links
 * [lsp layer](https://github.com/syl20bnr/spacemacs/tree/develop/layers/%2Btools/lsp#key-bindings)
 * [develop spacemacs docs](https://develop.spacemacs.org/doc/DOCUMENTATION.html)
+
+### Elixir
+
+`develop` branch Elixir layer documentation [here](https://develop.spacemacs.org/layers/+lang/elixir/README.html).
+
+I've included the latest build of [elixir-ls](https://github.com/elixir-lsp/elixir-ls) (0.6.0) in this `.spacemacs.d/` distribution.  It requires [Elixir](https://elixir-lang.org/) to be installed.
