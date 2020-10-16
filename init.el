@@ -332,7 +332,10 @@ you should place your code here."
           "~/.spacemacs.d/libs/plantuml/plantuml.jar")))
   (setq plantuml-jar-path org-plantuml-jar-path)
   (setq plantuml-default-exec-mode 'jar)
-  (flycheck-plantuml-setup))
+  (flycheck-plantuml-setup)
+
+  ;; org-mode config
+  (setq org-startup-truncated nil))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
