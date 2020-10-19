@@ -345,6 +345,15 @@ you should place your code here."
   (flycheck-plantuml-setup)
 
   ;; org-mode config
+  (setq orgdir
+        (let ((d (getenv "$ORGDIR")))
+          (if (null d)
+            "~/org"
+            d)))
+
+  ;; add all .org files to agenda for global TODOs
+  (setq org-agenda-files (directory-files-recursively orgdir ".org"))
+
   (setq org-startup-truncated nil)
 
   ;; elixir setup
