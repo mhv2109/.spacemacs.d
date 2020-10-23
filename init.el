@@ -352,7 +352,8 @@ you should place your code here."
             d)))
 
   ;; add all .org files to agenda for global TODOs
-  (setq org-agenda-files (directory-files-recursively orgdir ".org"))
+  (if (file-directory-p orgdir)
+      (setq org-agenda-files (directory-files-recursively orgdir ".org")))
 
   (setq org-startup-truncated nil)
 
