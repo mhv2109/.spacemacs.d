@@ -362,7 +362,8 @@ you should place your code here."
   (setq elixir-ls-path (concat libdir "/elixir/elixir-ls"))
 
   ;; lsp setup
-  (setq lsp-enable-file-watchers t))
+  (setq lsp-enable-file-watchers t)
+  (setq lsp-file-watch-threshold nil))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
