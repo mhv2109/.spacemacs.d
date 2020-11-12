@@ -358,6 +358,9 @@ you should place your code here."
 
   (setq org-startup-truncated nil)
 
+  ;; add custom org-todo-keywords
+  (setq org-todo-keywords '((sequence "TODO" "IN PROGRESS" "DONE" "DEFERRED")))
+
   ;; elixir setup
   (setq elixir-ls-path (concat libdir "/elixir/elixir-ls"))
 
