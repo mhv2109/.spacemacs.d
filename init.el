@@ -62,6 +62,7 @@ values."
             shell-default-term-shell "/bin/zsh")
      spell-checking
      syntax-checking
+     (c-c++ :variables c-c++-backend 'lsp-clangd)
      ;; version-control
      )
    ;; List of additional packages that will be installed without being

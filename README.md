@@ -52,3 +52,9 @@ I've included `plantuml.jar` in this `.spacemacs.d/` distribution.  It requires 
 `develop` branch Elixir layer documentation [here](https://develop.spacemacs.org/layers/+lang/elixir/README.html).
 
 I've included the latest build of [elixir-ls](https://github.com/elixir-lsp/elixir-ls) (0.6.0) in this `.spacemacs.d/` distribution.  It requires [Elixir](https://elixir-lang.org/) to be installed.
+
+### C/C++
+
+`develop` branch C-C++ layer documentation [here](https://develop.spacemacs.org/layers/+lang/c-c++/README.html).
+
+Requires [clangd](https://clangd.llvm.org/installation.html).
