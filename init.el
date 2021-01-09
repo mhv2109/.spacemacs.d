@@ -368,7 +368,13 @@ you should place your code here."
 
   ;; lsp setup
   (setq lsp-enable-file-watchers t)
-  (setq lsp-file-watch-threshold nil))
+  (setq lsp-file-watch-threshold nil)
+
+  ;; C/C++ setup
+  (setq-default dotspacemacs-configuration-layers
+                '((c-c++ :variables
+                         c++-enable-organize-includes-on-save t
+                         c-c++-enable-clang-format-on-save t))))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
